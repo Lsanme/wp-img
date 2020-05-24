@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body {
 	font-family:"Candara",Arial,Helvetica,sans-serif;
-	font-size:13px;
+	font-size:14px;
 	margin:0;
 	padding:0;
 	color:#666666;
@@ -1378,10 +1378,17 @@ img.wp-post-image {
 
 .sidebar-after-title {
 	clear:both;
-	height:2px;
+	height:1.6px;
 	background:#a81010;
 	margin-bottom:5px;
 	width:100%;
+}
+
+.article-after-content {
+    border-bottom: ridge;
+    border-width: 1.6px;
+    border-color: #AA0100;
+    margin-bottom: 30px;
 }
 
 .footer-title {
