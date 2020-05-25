@@ -384,10 +384,10 @@ article,
 }
 
 .article-after-content {
-    border-bottom: ridge;
-    border-width: 1.6px;
-    border-color: #AA0100;
-    margin-bottom: 30px;
+	border-bottom: double;
+	transform:scale(1,1);
+	border-color: #A81010;
+	margin-bottom: 30px;
 }
 
 .separator {
@@ -1385,7 +1385,8 @@ img.wp-post-image {
 
 .sidebar-after-title {
 	clear:both;
-	height:1.6px;
+	height:8px;
+	transform:scale(1,0.2);
 	background:#a81010;
 	margin-bottom:5px;
 	width:100%;
