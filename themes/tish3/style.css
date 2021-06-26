@@ -14,11 +14,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* general styles */
 
 body {
-	font-family:"Noto Sans SC",Quattrocento Sans,Candara,Dosis,Arial,Helvetica,sans-serif;
+	font-family:-apple-system,BlinkMacSystemFont,"Source Sans Pro","Noto Serif SC","Helvetica Neue","PingFang SC",Arial,"Microsoft YaHei","Heiti SC",sans-serif;
 	font-size:14px;
 	margin:0;
 	padding:0;
-	color:#666666;
+	color:#000000;
 	width:100%;
 }
 
@@ -297,12 +297,12 @@ ul {
 }
 
 #navmain > div > ul > li > a, .cart-contents-icon, .search-form-icon {
-	color:#333333;
+	color:#000000;
 }
 
 #navmain > div > ul > .current-menu-item > a, #navmain > div > ul > .current-menu-ancestor > a,
 #navmain > div > ul > li > a:hover, .cart-contents-icon:hover, .search-form-icon:hover {
-	color:#333333;
+	color:#000000;
 }
 
 #navmain a:hover {
@@ -1052,6 +1052,7 @@ span > object {
 .custom-after-content,
 .page-after-content {
 	margin-top:5px;
+	font-size:13px;
 }
 
 .aside-icon:before,
@@ -1071,6 +1072,7 @@ span > object {
 .quote-content:after,
 .sticky h1:before {
 	font-family:'FontAwesome';
+	color:#666666;
 	margin:0;
 }
 
